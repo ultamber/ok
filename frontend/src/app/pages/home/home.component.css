@@ -1,0 +1,65 @@
+.banner
+{
+    background-image: url(../../../assets/img/gadgetshome.jpg);
+    height: 600px;
+    background-position: center top;
+    background-size:cover;
+}
+.content
+{
+    color:blanchedalmond;
+    font-size: 20px;
+    top: 15%;
+    position: absolute;
+    left: 12%;
+}
+.content h1
+{
+    color:rgb(202, 180, 71);
+    font-size: 30px;
+    font-weight:bold;
+    font-style: normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.content a
+{
+    text-decoration: none;
+    color:hsl(36, 64%, 25%);
+    background-color: rgba(219, 171, 26, 0.741);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button1
+{
+    color:bisque;
+    background-color: hsl(36, 64%, 25%);;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.button2
+{
+    color:bisque;
+    text-decoration:none;
+    background-color: hsl(36, 64%, 25%);;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+@media screen and(max-width:600px){
+    .banner{
+        width: 700px;
+    }
+    .form{
+        width: 100%;
+    }
+}
+
